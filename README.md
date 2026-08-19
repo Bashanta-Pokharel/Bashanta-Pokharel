@@ -7,6 +7,10 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Bashanta-Pokharel&color=00F2FE&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+</p>
+
+<p align="center">
   <a href="https://bashanta-pokharel.github.io/Portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Visit_Portfolio-00F2FE?style=for-the-badge&logoColor=black&labelColor=0d1117" alt="Portfolio"/>
   </a>
@@ -15,9 +19,6 @@
   </a>
   <a href="https://github.com/Bashanta-Pokharel?tab=repositories">
     <img src="https://img.shields.io/badge/📁_My_Projects-38BDF8?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Projects"/>
-  </a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HERE" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn"/>
   </a>
 </p>
 
@@ -51,21 +52,11 @@ const bashanta = {
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Bashanta-Pokharel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Bashanta-Pokharel&theme=tokyonight&hide_border=true" width="48%"/>
+  <img src="https://streak-stats.demolab.com/?user=Bashanta-Pokharel&theme=tokyonight&hide_border=true" width="48%"/>
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bashanta-Pokharel&layout=compact&theme=tokyonight&hide_border=true" width="50%"/>
-</p>
-
-<br/>
-
-### 📌 Featured Projects
-
-<p align="center">
-  <a href="https://github.com/Bashanta-Pokharel?tab=repositories">
-    <img src="https://github-readme-stats.vercel.app/api/pinned-repos/?username=Bashanta-Pokharel&repo=YOUR-REPO-NAME&theme=tokyonight&hide_border=true" />
-  </a>
 </p>
 
 <br/>
