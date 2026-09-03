@@ -19,8 +19,8 @@
 </p>
 
 <p align="center">
-  <a href="https://bashanta-pokharel.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/🌐%20PORTFOLIO-00F2FE?style=for-the-badge&logoColor=white"/>
+  <a href="https://bashanta-pokharel.github.io/Bashanta-Pokharel/">
+    <img src="/assets/banner.svg" alt="Portfolio banner" style="max-width:100%"/>
   </a>
   <a href="https://linkedin.com/in/bashanta-pokharel">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
