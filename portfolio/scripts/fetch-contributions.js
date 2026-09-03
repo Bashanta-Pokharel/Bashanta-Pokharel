@@ -1,15 +1,13 @@
 // Fetch GitHub contributions SVG for a user and write a JSON file to public/contributions.json
 // Usage: node scripts/fetch-contributions.js
 
-import fs from 'fs'
-import path from 'path'
-import { fileURLToPath } from 'url'
+const fs = require('fs')
+const path = require('path')
 
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+const __dirname = path.resolve()
 
 const username = process.env.GH_USER || 'Bashanta-Pokharel'
-const outPath = path.join(__dirname, '..', 'public')
+const outPath = path.join(__dirname, 'public')
 const outFile = path.join(outPath, 'contributions.json')
 
 async function fetchSvg() {
