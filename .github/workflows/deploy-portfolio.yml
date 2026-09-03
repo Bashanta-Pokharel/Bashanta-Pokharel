@@ -1,0 +1,44 @@
+name: Deploy portfolio to GitHub Pages
+
+on:
+  push:
+    branches: [ bashanta-pokharel-improve-portfolio-ui, main ]
+  workflow_dispatch: {}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies (portfolio)
+        run: |
+          cd portfolio
+          npm ci
+
+      - name: Fetch contributions (build-time)
+        env:
+          GH_USER: Bashanta-Pokharel
+        run: |
+          cd portfolio
+          node scripts/fetch-contributions.js
+
+      - name: Build (portfolio)
+        run: |
+          cd portfolio
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./portfolio/dist
+          publish_branch: gh-pages
+          keep_files: false
+          force_orphan: true

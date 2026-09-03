@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="12" fill="#071014" />
+  <g transform="translate(40,40)">
+    <text x="0" y="70" font-family="'Segoe UI', Roboto, Arial" font-size="56" font-weight="700" fill="url(#g)">Bashanta Pokharel</text>
+    <text x="0" y="110" font-family="'Segoe UI', Roboto, Arial" font-size="20" fill="#9ca3af">Full Stack Developer • Backend Engineer • Tech Enthusiast</text>
+    <rect x="0" y="140" width="640" height="12" rx="6" fill="url(#g)" opacity="0.18" />
+  </g>
+</svg>
