@@ -306,7 +306,7 @@ Simple and engaging interfaces
 <h2 align="center">🐍 CONTRIBUTION SNAKE</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Bashanta-Pokharel/Bashanta-Pokharel/output/github-contribution-grid-snake.svg" width="90%"/>
+  <img src="https://ghchart.rshah.org/Bashanta-Pokharel" width="90%"/>
 </p>
 
 <br>
